@@ -23,7 +23,7 @@ let profesoresCategoria = (profesores, categorias) => {
 let porcProfesSexoEnCategoria = (profesores, categoria, sexo) => {
     let profesoresEnCategoria = profesoresCategoria(profesores, [categoria]);
     let cantidadSexo = profesoresEnCategoria.filter((profesor) => profesor.sexo === sexo).length;  	
-first commit
+
     return (cantidadSexo / profesoresEnCategoria.length) * 100;
 };
 
