@@ -22,7 +22,7 @@ let profesoresCategoria = (profesores, categorias) => {
 
 let porcProfesSexoEnCategoria = (profesores, categoria, sexo) => {
     let profesoresEnCategoria = profesoresCategoria(profesores, [categoria]);
-    let cantidadSexo = profesoresEnCategoria.filter((profesor) => profesor.sexo === sexo).length;
+    let cantidadSexo = profesoresEnCategoria.filter((profesor) => profesor.sexo === sexo).length; K
     return (cantidadSexo / profesoresEnCategoria.length) * 100;
 };
 
