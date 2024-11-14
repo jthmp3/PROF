@@ -42,5 +42,4 @@ let salida = document.getElementById("salida");
 salida.innerHTML = `Porcentaje de profesoras en la categoría 1:<br>`;
 salida.innerHTML += `${porcProfesSexoEnCategoria(profesores, 1, 'F').toFixed(2)}%<br>`;
 
-salida.innerHTML += `Porcentaje de profesores en la categoría 1:<br>`;
-salida.innerHTML += `${porcProfesSexoEnCategoria(profesores, 1, 'M').toFixed(2)}%<br>`;
+
